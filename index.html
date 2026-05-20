@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hasini Jella | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Hasini Jella, a CSE student building AI, backend, full-stack, blockchain, and health-tech systems."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="spotlight" aria-hidden="true"></div>
+    <div class="grid-field" aria-hidden="true"></div>
+
+    <header class="nav">
+      <a class="brand" href="#home" aria-label="Hasini Jella home">
+        <span>HJ</span>
+        <strong>Hasini Jella</strong>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+        <button class="command-chip" id="openCommand" type="button">⌘ Ctrl K</button>
+      </nav>
+      <button class="menu-button" id="menuButton" type="button" aria-label="Toggle navigation">☰</button>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">✦ Backend-first CSE student building AI that reaches people</p>
+          <h1>Hasini Jella</h1>
+          <p class="hero-lede">
+            I build practical full-stack systems across agriculture, health, climate fintech, and
+            wearable AI, with a bias for hard problems that need to work outside perfect lab
+            conditions.
+          </p>
+          <div class="actions">
+            <a class="primary" href="#projects">View projects ↗</a>
+            <a class="secondary" href="./assets/Hasini_Jella_Resume.docx">Download resume</a>
+          </div>
+          <div class="social-row">
+            <a href="https://github.com/HasiniJella" target="_blank" rel="noreferrer">GitHub</a>
+            <a
+              href="https://www.linkedin.com/in/hasini-jella-73582831a"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+            <a href="mailto:hasini.four@gmail.com">Email</a>
+          </div>
+        </div>
+
+        <aside class="mission-panel reveal delay-1" aria-label="Portfolio mission control">
+          <div class="panel-head">
+            <span>Mission Control</span>
+            <strong>Portfolio agents</strong>
+          </div>
+          <div class="agent-list">
+            <article>
+              <div>
+                <strong>AI Builder</strong>
+                <span>EfficientNetB0, LSTM, Gemini</span>
+              </div>
+              <i style="--level: 92%"></i>
+            </article>
+            <article>
+              <div>
+                <strong>Backend Systems</strong>
+                <span>FastAPI, SQLAlchemy, Supabase</span>
+              </div>
+              <i style="--level: 86%"></i>
+            </article>
+            <article>
+              <div>
+                <strong>Product Ops</strong>
+                <span>Events, recruitment, community</span>
+              </div>
+              <i style="--level: 78%"></i>
+            </article>
+          </div>
+          <div class="signal-row">
+            <span>4 shipped builds</span>
+            <span>Hackathon finalist</span>
+            <span>Telugu voice UX</span>
+          </div>
+        </aside>
+      </section>
+
+      <section class="stats reveal">
+        <div><strong>9.1</strong><span>Current CGPA</span></div>
+        <div><strong>420%</strong><span>Community growth</span></div>
+        <div><strong>90+</strong><span>Workshop participants</span></div>
+        <div><strong>4</strong><span>Major projects</span></div>
+      </section>
+
+      <section class="split section">
+        <div>
+          <p class="kicker">Profile</p>
+          <h2>Curious, hands-on, and comfortable where software meets messy reality.</h2>
+        </div>
+        <p>
+          I am a second-year Computer Science Engineering student at MGIT, Hyderabad. My work spans
+          AI models, backend APIs, security rules, smart contracts, and user-facing interfaces, with
+          a strong interest in systems that help farmers, patients, and student communities.
+        </p>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Selected work</p>
+            <h2>Projects with real signals, constraints, and users.</h2>
+          </div>
+          <div class="filters" aria-label="Project filters">
+            <button class="active" data-filter="all" type="button">All</button>
+            <button data-filter="ai" type="button">AI</button>
+            <button data-filter="full-stack" type="button">Full-stack</button>
+            <button data-filter="blockchain" type="button">Blockchain</button>
+            <button data-filter="health" type="button">Health</button>
+          </div>
+        </div>
+
+        <div class="projects">
+          <article class="project mint" data-tags="ai full-stack agriculture">
+            <div class="project-top"><span>Full-stack PWA</span><a href="https://github.com/HasiniJella/cropdoc" target="_blank" rel="noreferrer">↗</a></div>
+            <div class="glyph">AI</div>
+            <h3>CropDoc AI</h3>
+            <p>Crop disease detection app for rural farmers in Telangana, built with an offline-first mobile UI and Telugu voice output.</p>
+            <div class="proof"><span>92%+ CNN accuracy</span><span>PlantVillage dataset</span><span>Low-connectivity UX</span></div>
+            <div class="stack"><span>FastAPI</span><span>React PWA</span><span>Supabase</span><span>EfficientNetB0</span><span>gTTS</span></div>
+          </article>
+
+          <article class="project coral" data-tags="ai health backend">
+            <div class="project-top"><span>Hackathon finalist</span><a href="https://github.com/HasiniJella/wristband" target="_blank" rel="noreferrer">↗</a></div>
+            <div class="glyph">HR</div>
+            <h3>Withdrawal Monitor</h3>
+            <p>Real-time ESP32 wristband system that tracks withdrawal risk signals and alerts physicians when anomalies escalate.</p>
+            <div class="proof"><span>HACKXTREME '26 finalist</span><span>Patient-adaptive baselines</span><span>SMS and voice alerts</span></div>
+            <div class="stack"><span>Python</span><span>FastAPI</span><span>PostgreSQL</span><span>PyTorch LSTM</span><span>Twilio</span></div>
+          </article>
+
+          <article class="project blue" data-tags="blockchain full-stack climate">
+            <div class="project-top"><span>Blockchain platform</span><a href="https://github.com/HasiniJella/AquaSentinel" target="_blank" rel="noreferrer">↗</a></div>
+            <div class="glyph">SAT</div>
+            <h3>AquaSentinel</h3>
+            <p>Parametric crop insurance platform that uses satellite-driven groundwater signals to trigger transparent farmer payouts.</p>
+            <div class="proof"><span>Solidity smart contracts</span><span>Sentinel-1 InSAR</span><span>2,151 stressed blocks</span></div>
+            <div class="stack"><span>Next.js</span><span>TypeScript</span><span>FastAPI</span><span>Solidity</span><span>Polygon Amoy</span></div>
+          </article>
+
+          <article class="project violet" data-tags="health ai full-stack">
+            <div class="project-top"><span>Health platform</span><a href="https://github.com/HasiniJella/Vitalis" target="_blank" rel="noreferrer">↗</a></div>
+            <div class="glyph">PHR</div>
+            <h3>Vitalis</h3>
+            <p>Secure personal health management platform with PHR tracking, cycle logs, medication reminders, and an AI guide.</p>
+            <div class="proof"><span>Zero-trust Firestore rules</span><span>Document-aware chatbot</span><span>Diet planner</span></div>
+            <div class="stack"><span>React 19</span><span>TypeScript</span><span>Firebase</span><span>Gemini AI</span><span>Tailwind CSS</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="skills section">
+        <div>
+          <p class="kicker">Toolbox</p>
+          <h2>Backend, AI, frontend, and deployment foundations.</h2>
+        </div>
+        <div class="skill-cloud">
+          <span>Python</span><span>FastAPI</span><span>React</span><span>TypeScript</span><span>PyTorch</span><span>TensorFlow</span><span>Solidity</span><span>Supabase</span><span>Firebase</span><span>PostgreSQL</span><span>Twilio</span><span>Gemini AI</span>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <p class="kicker">Education & leadership</p>
+        <h2>Technical learning with community execution.</h2>
+        <div class="timeline">
+          <article>
+            <span>2024 - 2028</span>
+            <h3>B.Tech CSE</h3>
+            <strong>Mahatma Gandhi Institute of Technology</strong>
+            <p>CGPA 9.1 with a focus on backend systems, AI applications, and product-minded engineering.</p>
+          </article>
+          <article>
+            <span>2025 - Present</span>
+            <h3>Student Lead, Planning & Development</h3>
+            <strong>Persona Club MGIT</strong>
+            <p>Designed interview rubrics, evaluated 30+ fresher candidates, and managed workshops for 90+ participants.</p>
+          </article>
+          <article>
+            <span>2025 - Present</span>
+            <h3>Social Media Head & Event Coordinator</h3>
+            <strong>Idea Incubator MGIT</strong>
+            <p>Grew community engagement by 420% while coordinating E-Summits, hackathons, speakers, and startup ideation.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div>
+          <p class="kicker">Contact</p>
+          <h2>Let’s build something useful, resilient, and reachable.</h2>
+        </div>
+        <div class="actions">
+          <a class="primary" href="mailto:hasini.four@gmail.com">Email me</a>
+          <a class="secondary" href="https://github.com/HasiniJella" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="secondary" href="https://www.linkedin.com/in/hasini-jella-73582831a" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>Built for Hasini Jella</span>
+      <span>AI systems | Full-stack products | Student leadership</span>
+    </footer>
+
+    <div class="command-modal" id="commandModal" aria-hidden="true">
+      <button class="scrim" id="closeCommand" type="button" aria-label="Close command menu"></button>
+      <div class="command-panel" role="dialog" aria-modal="true" aria-label="Command menu">
+        <div class="command-head"><span>⌘</span><strong>Jump to...</strong><button type="button" id="closeCommandButton">×</button></div>
+        <a href="#projects">Projects <span>↗</span></a>
+        <a href="#experience">Experience <span>↗</span></a>
+        <a href="https://github.com/HasiniJella" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+        <a href="https://www.linkedin.com/in/hasini-jella-73582831a" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+        <a href="mailto:hasini.four@gmail.com">Email <span>↗</span></a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

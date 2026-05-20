@@ -7,4 +7,4 @@ Static portfolio website for Hasini Jella.
 Open `index.html` directly in a browser, or run any static server from this folder.
 
 ## Vist
-hasini-portfolio-olive.vercel.app
+https://hasini-portfolio-olive.vercel.app

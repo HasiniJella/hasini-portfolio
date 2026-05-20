@@ -9,5 +9,6 @@ Open `index.html` directly in a browser, or run any static server from this fold
 ## Deploy on Vercel
 
 Import this folder as its own GitHub repository in Vercel. No build command is required.
-Or visit
+
+## Or visit
 https://vercel.com/hasinijellas-projects/hasini-portfolio
